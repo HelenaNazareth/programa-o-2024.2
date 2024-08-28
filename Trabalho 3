@@ -1,0 +1,39 @@
+Python, Java e JavaScript são três linguagens de programação populares que atendem a diferentes propósitos e têm características distintas. 
+
+Python é uma linguagem de propósito geral conhecida por sua simplicidade e legibilidade. Sua sintaxe clara e intuitiva, que utiliza indentação para definir blocos de código, facilita a escrita e compreensão do código. É amplamente utilizada em ciência de dados, inteligência artificial, desenvolvimento web e automação, graças à vasta gama de bibliotecas e frameworks disponíveis. 
+
+Java, por outro lado, é uma linguagem orientada a objetos projetada para ser portátil e executada em várias plataformas. Sua sintaxe é mais detalhada e estruturada, utilizando chaves para definir blocos de código e exigindo a declaração explícita de tipos de variáveis. É frequentemente utilizada no desenvolvimento de aplicações corporativas e Android, com a Máquina Virtual Java (JVM) permitindo a execução em diversos sistemas operacionais. 
+
+Já JavaScript é uma linguagem essencial para o desenvolvimento web, criando páginas interativas e dinâmicas. Sua sintaxe, embora similar à de Java em alguns aspectos, é mais flexível quanto à declaração de variáveis e tipos de dados. Originalmente uma linguagem de script do lado do cliente, JavaScript também é usado no lado do servidor com Node.js, e é fundamental para a construção de interfaces de usuário e aplicações web modernas. Em resumo, Python se destaca pela simplicidade e versatilidade, Java pela portabilidade e robustez em ambientes corporativos, e JavaScript pela interatividade e dinamismo na web.
+
+
+Códigos:
+--> Código Python
+# Código Python para imprimir "Olá, Mundo!" com uma função
+def saudacao():
+    return "Olá, Mundo!"
+
+print(saudacao())
+
+
+--> Código Java
+// Código Java para imprimir "Olá, Mundo!" com um método
+public class Saudacao {
+    public static String saudacao() {
+        return "Olá, Mundo!";
+    }
+
+    public static void main(String[] args) {
+        System.out.println(saudacao());
+    }
+}
+
+
+
+--> Código JavaScript
+// Código JavaScript para imprimir "Olá, Mundo!" com uma função
+function saudacao() {
+    return "Olá, Mundo!";
+}
+
+console.log(saudacao());
