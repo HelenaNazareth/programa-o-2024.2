@@ -1,0 +1,37 @@
+Resumo: 
+O Bubble Sort é um algoritmo de ordenação simples que funciona repetidamente percorrendo a lista para comparar pares de elementos adjacentes e trocá-los se estiverem na ordem errada. Esse processo é repetido até que a lista esteja ordenada.
+
+Aqui está uma implementação básica do algoritmo Bubble Sort em Python:
+Explicação:
+Percorrer a Lista: O algoritmo percorre a lista várias vezes. Em cada passagem, ele compara pares de elementos adjacentes.
+
+Trocar Elementos: Se um elemento é maior que o elemento seguinte, eles são trocados. Isso "empurra" o maior elemento para o final da lista.
+
+Reduzir o Intervalo: A cada iteração, o número de elementos a serem verificados é reduzido, pois o maior elemento da sublista é movido para sua posição correta.
+
+Finalizar: O processo continua até que nenhum par de elementos precise ser trocado, o que indica que a lista está ordenada.
+
+Para listas pequenas ou quando a simplicidade do código é uma prioridade, o Bubble Sort pode ser uma escolha adequada. Para listas maiores, algoritmos mais eficientes, como Quick Sort, Merge Sort ou
+Heap Sort, podem ser mais apropriados.
+
+Se você tiver alguma dúvida ou precisar de mais informações sobre como o algoritmo funciona ou sobre outros algoritmos de ordenação, sinta-se à vontade para perguntar!
+
+
+
+
+
+Para imprimir apenas as vogais de uma determinada palavra ou frase em Python, você pode seguir estes passos:
+
+Definir uma variável para armazenar a palavra ou frase.
+Iterar sobre cada caractere da palavra ou frase.
+Verificar se o caractere é uma vogal.
+Imprimir as vogais encontradas.
+Aqui está um exemplo de implementação para isso:
+Explicação:
+Definição das Vogais: A variável vogais contém todas as vogais maiúsculas e minúsculas. Isso garante que o código funcione independentemente de a vogal ser maiúscula ou minúscula.
+
+Iteração e Verificação: O loop for percorre cada caractere da string texto, e o if verifica se o caractere está na string vogais.
+
+Armazenamento das Vogais: As vogais encontradas são adicionadas à variável resultado.
+
+Impressão: Após a iteração, a string resultado contendo todas as vogais encontradas é impressa.
